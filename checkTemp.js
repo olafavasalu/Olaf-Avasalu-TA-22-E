@@ -1,9 +1,9 @@
-function checkTemp(p1){
-    if(p1<20){
-        console.log("-1")
-    } else if(p1<40){
-        console.log("0")
+function checkTemp(temp) {
+    if(temp < 21) {
+      return -1;
+    } else if(temp < 41) {
+      return 0;
     } else {
-        console.log("1")
+      return 1;
     }
-}
+  }
